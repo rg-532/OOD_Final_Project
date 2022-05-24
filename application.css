@@ -1,0 +1,242 @@
+.grid-pane {
+	-fx-background-color: #1F1F1F;
+}
+
+/******************
+ * Control        *
+ ******************/
+.text-field, .text-area, .combo-box, .check-box > .box {
+	-fx-background-color: #4F4F4F;
+	-fx-background-insets: 0;
+	-fx-background-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-border-color: black;
+	-fx-border-radius:0.0 2px;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+.check-box > .box:hover {
+		-fx-background-color: #5F5F5F;
+}
+.label, .check-box, .text-field, .combo-box, .jfx-combo-box > .list-view > .list-cell {
+	-fx-text-fill: white;
+}
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover {
+    -fx-background: #5F5F5F;
+    -fx-background-color: #5F5F5F;
+}
+.combo-box-popup > * > .label {
+    -fx-text-fill: white;
+}
+.combo-box > .list-cell {
+	-fx-text-fill: white;
+}
+.content {
+    -fx-background-color: transparent;
+}
+.viewport{
+    -fx-background-color: transparent; 
+}
+
+/******************
+ * Button         *
+ ******************/
+.button {
+	-fx-background-color: #EF2F3F;
+	-fx-text-fill: white;
+	-fx-background-insets: 0;
+	-fx-background-radius: 10;
+	-fx-border-width: 1;
+	-fx-border-color: #000000;
+	-fx-border-radius: 7;
+	-fx-background-insets: 0;
+}
+.button:hover {
+	-fx-background-color: #FF3F4F;
+}
+.button:armed {
+	-fx-background-color: #E72737;
+}
+.button.menu-button {	
+	-fx-background-color: #2F2F2F;
+	-fx-text-fill: white;
+	-fx-background-insets: 0;
+	-fx-background-radius: 0;
+	-fx-border-width: 0;
+	-fx-border-radius: 0;
+	-fx-background-insets: 0;
+	-fx-border-width: 0 0 1 0;
+	-fx-border-color: black;
+}
+.button.menu-button:hover {
+	-fx-background-color: #3F3F3F;
+}
+.button.menu-button:armed {
+	-fx-background-color: #272727;
+}
+
+/******************
+ * List View      *
+ ******************/
+.scroll-pane {
+	-fx-background-color: transparent;
+	-fx-background-insets: 0;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+.list-view {
+	-fx-background-color: #4F4F4F;
+	-fx-background-insets: 0;
+	-fx-background-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-border-color: black;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-padding: 0;
+}
+.list-cell {
+	-fx-background: #4F4F4F;
+	-fx-background-insets: 0;
+	-fx-border-width: 0;
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-padding: 0;
+}
+.list-cell:filled:selected {
+	-fx-background: #5F5F5F;
+	-fx-background-radius: 3px;
+	-fx-border-width: 1px;
+	-fx-border-color: black;
+}
+
+.list-cell:filled:hover {
+	-fx-background: #6F6F6F;
+}
+
+/******************
+ * Tab Pane       *
+ ******************/
+.tab-pane {
+	-fx-background-color: #2F2F2F;
+}
+.tab-pane > .tab-header-area {
+	-fx-background-color: #1F1F1F;
+    -fx-padding: 0 10 -2 10;
+}
+.tab-pane:top > .tab-header-area > .tab-header-background {
+    -fx-background-color: #1F1F1F;
+}
+.tab-pane > .tab-header-area > .headers-region {
+	-fx-background-color: #1F1F1F;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-background-insets: 0 1 1 0, 1 2 1 1, 2 3 1 2;
+    -fx-background-radius: 3 3 0 0, 2 2 0 0, 1 1 0 0;
+    -fx-padding: 0;
+    -fx-background-color: #3B3B3B, #3D3D3D, #3F3F3F;
+    -fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-border-width: 1;
+	-fx-border-color: black;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: #2B2B2B, #2D2D2D, #2F2F2F;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab:hover {
+    -fx-background-color: #4B4B4B, #4D4D4D, #4F4F4F;
+}
+.tab-pane > .tab-header-area > .headers-region > .tab > .tab-container > .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+}
+.tab-pane > .tab-header-area > .control-buttons-tab > .container {
+    -fx-padding: 0;
+}
+.tab-down-button {
+	-fx-padding: 0;
+}
+.tab-down-button .arrow {
+	-fx-padding: 0;
+}
+
+/******************
+ * Date Picker    *
+ ******************/
+.date-picker {
+	-fx-background-color: transparent;
+}
+.date-picker > .arrow-button,
+.combo-box-base > .arrow-button {
+    -fx-background-color: #EF2F3F;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0 3 3 0;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 0 2 2 0;
+}
+.date-picker > .arrow-button > .arrow,
+.combo-box-base > .arrow-button > .arrow {
+	-fx-background-color: white;
+}
+.date-picker > .arrow-button:hover,
+.combo-box-base > .arrow-button:hover {
+    -fx-background-color: #FF3F4F;
+}
+.date-picker-popup {
+	 -fx-background-color: #2F2F2F;
+	 -fx-background-insets: 0;
+}
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: #2F2F2F;
+}
+.date-picker-popup > .calendar-grid {
+    -fx-background-color: #2F2F2F;
+}
+.date-picker-popup > * > .day-cell {
+    -fx-padding: 0;
+    -fx-border-color: black;
+    -fx-font-size: 1em;
+    -fx-background: #3F3F3F;
+    -fx-text-fill: white;
+}
+.date-picker-popup > * > .previous-month,
+.date-picker-popup > * > .next-month {
+    -fx-background: #272727;
+}
+.date-picker-popup > * > .today {
+    -fx-background-color: #3F3F3F;
+}
+.date-picker-popup > * > .day-cell:hover,
+.date-picker-popup > * > .selected,
+.date-picker-popup > * > .previous-month.selected,
+.date-picker-popup > * > .next-month.selected {
+    -fx-background: #5F5F5F;
+}
+.date-picker-popup > * > .previous-month:hover,
+.date-picker-popup > * > .next-month:hover {
+    -fx-background: #474747;
+}
+.date-picker-popup > * > .selected {
+	-fx-background-color: #5F5F5F;
+}
+.date-picker-popup > * > .today:hover,
+.date-picker-popup > * > .today.selected {
+    -fx-background-color: #5F5F5F;
+}
+.date-picker-popup > * > .previous-month.today,
+.date-picker-popup > * > .next-month.today {
+    -fx-background-color: #272727;
+}
+
+.date-picker-popup > * > .previous-month.today:hover,
+.date-picker-popup > * > .next-month.today:hover {
+    -fx-background-color: #474747;
+}
+
+
+
+
+
+
+
